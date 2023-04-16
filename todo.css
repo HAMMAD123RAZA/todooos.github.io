@@ -1,0 +1,31 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+} */
+
+.delete{
+    border-radius: 12px;
+    background-color: wheat;
+    margin: 6px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+#inp{
+border-radius: 12px;
+background-color: wheat;
+padding: 12px;
+}
+
+#btn{
+    padding: 11px;
+    background-color: wheat;
+    font-weight: bolder;
+    font-size: 17px;
+    border-radius: 12px;
+
+}
