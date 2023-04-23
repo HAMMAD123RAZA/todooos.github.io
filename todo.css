@@ -4,6 +4,17 @@
     box-sizing: border-box;
 } */
 
+body{
+    background-color: rgb(44, 43, 40);
+    color: aliceblue;
+}
+
+::placeholder{
+    color: aliceblue;
+    font-size: larger;
+    font-weight: bolder;
+}
+
 .delete{
     border-radius: 12px;
     background-color: wheat;
@@ -18,6 +29,7 @@
 #inp{
 border-radius: 12px;
 background-color: wheat;
+
 padding: 12px;
 }
 
