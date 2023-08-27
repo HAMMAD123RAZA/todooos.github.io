@@ -6,13 +6,12 @@ function fn() {
 
     let ul = document.getElementById('ul')
 
-    if (inp !== '') {
+    if (inp.trim() !== '') {
         let li = document.createElement('li')
         li.textContent = inp;
         ul.appendChild(li)
 
         document.getElementById('inp').value=' '                  
-
 
 
         let del = document.createElement('button')
